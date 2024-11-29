@@ -34,6 +34,39 @@ Features:
 
 Learn more about our design in the [*E-Resume — Build a professional resume: Design case study* Medium post.](https://uxplanet.org/e-resume-build-a-professional-resume-design-case-study-3dc02a6359ea)
 
+## Running the web app
+
+### Running locally
+
+1. Open the terminal / command prompt in your system
+2. Clone the repo
+   ```
+   $ git clone https://github.com/sadanandpai/resume-builder.git
+   ```
+3. Install the dependencies
+   ```
+   $ npm install
+   ```
+4. Run the project
+   ```
+   $ npm run dev
+   ```
+5. Visit http://localhost:3000/ on your browser
+
+### Running via Docker
+
+Prequisite: Install [Docker](https://docs.docker.com/engine/install/).
+
+1. Open the terminal / command prompt in your system
+2. Clone the repo
+   ```
+   $ git clone https://github.com/sadanandpai/resume-builder.git
+   ```
+3. Run the below command in the terminal from within the cloned project directory
+   ```
+   $ docker-compose up -d
+   ```
+
 ## Contributing Guide
 
 If you are interested in contributing (fixing bugs, improving features, or creating a resume template), please refer to [Contributing Guide](./CONTRIBUTING.md).
